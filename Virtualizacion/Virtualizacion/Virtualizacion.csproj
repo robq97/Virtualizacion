@@ -47,26 +47,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Logica\Ejecutar.cs" />
+    <Compile Include="Logica\Memoria.cs" />
+    <Compile Include="Logica\SQL.cs" />
+    <Compile Include="Logica\SQLController.cs" />
+    <Compile Include="Objetos\Contacto.cs" />
+    <Compile Include="Objetos\ReferenciaUsuario_X_Contacto.cs" />
+    <Compile Include="Objetos\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <Compile Include="UI\CrearContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CrearContacto.Designer.cs">
+      <DependentUpon>CrearContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\EditarContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EditarContacto.Designer.cs">
+      <DependentUpon>EditarContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
+    </Compile>
+    <Compile Include="UI\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\VerContactos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\VerContactos.Designer.cs">
+      <DependentUpon>VerContactos.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,6 +95,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\CrearContacto.resx">
+      <DependentUpon>CrearContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\VerContactos.resx">
+      <DependentUpon>VerContactos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -89,5 +120,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

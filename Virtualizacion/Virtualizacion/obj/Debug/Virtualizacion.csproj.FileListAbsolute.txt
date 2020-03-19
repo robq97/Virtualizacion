@@ -9,3 +9,14 @@ C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj
 C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csprojAssemblyReference.cache
 C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.Form1.resources
 C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.Login.resources
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.Properties.Resources.resources
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csproj.GenerateResource.cache
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.exe
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.pdb
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe.config
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.pdb
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Login.resources
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Menu.resources
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.VerContactos.resources
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.CrearContacto.resources
