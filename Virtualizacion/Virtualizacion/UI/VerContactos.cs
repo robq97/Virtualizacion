@@ -8,18 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Virtualizacion
+namespace Virtualizacion.UI
 {
-    public partial class Login : Form
+    public partial class VerContactos : Form
     {
-        public Login()
+        public VerContactos()
         {
             InitializeComponent();
-        }
-
-        private void btnIniciarSesion_Click(object sender, EventArgs e)
-        {
-
+            this.CenterToScreen();
+            
         }
     }
 }
