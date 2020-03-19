@@ -8,3 +8,4 @@ C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj
 C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.pdb
 C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csprojAssemblyReference.cache
 C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.Form1.resources
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.Login.resources
