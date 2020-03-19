@@ -71,5 +71,13 @@ namespace Virtualizacion.UI
                 return false;
             }
         }
+
+        private void button_volver_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var next_form = new Menu();
+            next_form.Closed += (s, args) => this.Close();
+            next_form.Show();
+        }
     }
 }

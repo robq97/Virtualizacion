@@ -38,6 +38,7 @@
             this.textBox_telefono = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox_correo = new System.Windows.Forms.TextBox();
+            this.button_volver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox_nombre
@@ -133,11 +134,22 @@
             this.textBox_correo.Size = new System.Drawing.Size(239, 26);
             this.textBox_correo.TabIndex = 9;
             // 
+            // button_volver
+            // 
+            this.button_volver.Location = new System.Drawing.Point(16, 312);
+            this.button_volver.Name = "button_volver";
+            this.button_volver.Size = new System.Drawing.Size(320, 23);
+            this.button_volver.TabIndex = 11;
+            this.button_volver.Text = "Volver al menu";
+            this.button_volver.UseVisualStyleBackColor = true;
+            this.button_volver.Click += new System.EventHandler(this.button_volver_Click);
+            // 
             // CrearContacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(359, 323);
+            this.ClientSize = new System.Drawing.Size(359, 346);
+            this.Controls.Add(this.button_volver);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox_correo);
             this.Controls.Add(this.label5);
@@ -166,5 +178,6 @@
         private System.Windows.Forms.TextBox textBox_telefono;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox_correo;
+        private System.Windows.Forms.Button button_volver;
     }
 }
