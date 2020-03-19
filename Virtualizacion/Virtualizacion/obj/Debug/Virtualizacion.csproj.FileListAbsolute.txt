@@ -1,0 +1,8 @@
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe.config
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.pdb
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.Properties.Resources.resources
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csproj.GenerateResource.cache
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csproj.CoreCompileInputs.cache
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.exe
+C:\Users\robq9\Documents\GitHub\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.pdb
