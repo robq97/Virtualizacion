@@ -13,6 +13,11 @@ namespace Virtualizacion.UI
     public partial class EditarContacto : Form
     {
         public EditarContacto()
+
+    public partial class EditarContacto : Form
+    {
+        public EditarContacto()
+
         {
             InitializeComponent();
             this.CenterToScreen();

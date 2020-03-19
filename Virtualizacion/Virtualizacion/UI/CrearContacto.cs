@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using Virtualizacion.Logica;
 using Virtualizacion.Objetos;
 
@@ -15,6 +16,14 @@ namespace Virtualizacion.UI
     public partial class CrearContacto : Form
     {
         public CrearContacto()
+
+
+namespace Virtualizacion.UI
+{
+    public partial class EditarContacto : Form
+    {
+        public EditarContacto()
+
         {
             InitializeComponent();
             this.CenterToScreen();
