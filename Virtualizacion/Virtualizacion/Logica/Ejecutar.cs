@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Virtualizacion.UI;
-using static System.Net.Mime.MediaTypeNames;
 using Application = System.Windows.Forms.Application;
 
 namespace Virtualizacion.Logica
@@ -56,7 +52,7 @@ namespace Virtualizacion.Logica
                 int id_contacto = Memoria.lista_contactos[i].ID_Contacto;
                 for (int j = 0; j < Memoria.lista_referencias_usuario_contacto.Count; j++)
                 {
-                    if(Memoria.lista_referencias_usuario_contacto[j].ID_Usuario == id_usuario&&
+                    if (Memoria.lista_referencias_usuario_contacto[j].ID_Usuario == id_usuario &&
                         Memoria.lista_referencias_usuario_contacto[j].ID_Contacto == id_contacto)
                     {
                         ids_de_contactos_asociados_a_usuario.Add(id_contacto);

@@ -52,6 +52,7 @@
             this.textBox_usuario.Name = "textBox_usuario";
             this.textBox_usuario.Size = new System.Drawing.Size(237, 26);
             this.textBox_usuario.TabIndex = 1;
+            this.textBox_usuario.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_usuario_KeyDown);
             // 
             // textBox_contrasenia
             // 
@@ -60,6 +61,7 @@
             this.textBox_contrasenia.Name = "textBox_contrasenia";
             this.textBox_contrasenia.Size = new System.Drawing.Size(237, 26);
             this.textBox_contrasenia.TabIndex = 3;
+            this.textBox_contrasenia.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_contrasenia_KeyDown);
             // 
             // label2
             // 

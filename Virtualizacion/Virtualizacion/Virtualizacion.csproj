@@ -98,6 +98,9 @@
     <EmbeddedResource Include="UI\CrearContacto.resx">
       <DependentUpon>CrearContacto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\EditarContacto.resx">
+      <DependentUpon>EditarContacto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

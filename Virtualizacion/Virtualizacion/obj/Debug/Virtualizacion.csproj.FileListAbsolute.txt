@@ -20,3 +20,5 @@ E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Vi
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Menu.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.VerContactos.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.CrearContacto.resources
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csprojAssemblyReference.cache
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EditarContacto.resources

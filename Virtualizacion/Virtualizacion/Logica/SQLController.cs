@@ -46,6 +46,23 @@ namespace Virtualizacion.Logica
             return lista_temporal;
         }
 
+        internal void guardar_contacto_editado(Contacto contacto_editado)
+        {
+            string query = string.Format(@"UPDATE Contacto
+                                    SET Nombre = '{0}'
+                                        , Apellido = '{1}'
+                                        , Telefono = '{2}'
+                                        , Correo = '{3}'
+                                   WHERE ID_Contacto = {4};"
+                                    , contacto_editado.Nombre
+                                    , contacto_editado.Apellido
+                                    , contacto_editado.Telefono
+                                    , contacto_editado.Correo
+                                    , contacto_editado.ID_Contacto);
+            Memoria.sql.Query(query);
+            Console.WriteLine(string.Format("Contacto {0} editado satisfactoriamente.",contacto_editado.Nombre + " ID: " + contacto_editado.ID_Contacto));
+        }
+
         public List<ReferenciaUsuario_X_Contacto> cargar_referencias_de_usuario_y_contacto()
         {
             string query = "SELECT * FROM Usuario_X_Contacto";
@@ -63,6 +80,25 @@ namespace Virtualizacion.Logica
                 lista_temporal.Add(ru_x_c);
             }
             return lista_temporal;
+        }
+
+        public void eliminar_contacto_de_base_de_datos(int iD_Contacto)
+        {
+            string query = @"DELETE FROM Contacto WHERE ID_Contacto = " + iD_Contacto + ";";
+            Console.WriteLine("Query: " + query);
+            Query(query);
+            Console.WriteLine(string.Format("Contacto: {0} eliminado de la base de datos.", iD_Contacto));
+        }
+
+        public void eliminar_relacion_usuario_x_contacto(int iD_Contacto, int iD_Usuario)
+        {
+            string query = String.Format(@"DELETE FROM Usuario_x_Contacto
+                            WHERE ID_Usuario = {0} AND ID_Contacto = {1};"
+                                , iD_Usuario
+                                , iD_Contacto);
+            Console.WriteLine("Query: " + query);
+            Query(query);
+            Console.WriteLine(string.Format("Relacion Usuario: {0} y Contacto: {1} eliminado", iD_Usuario, iD_Contacto));
         }
 
         public void guardar_nuevo_contacto(Contacto contacto_a_guardar, int id_usuario)

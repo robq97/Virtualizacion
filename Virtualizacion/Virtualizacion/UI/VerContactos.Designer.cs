@@ -62,6 +62,7 @@
             this.button_boton_editar.TabIndex = 2;
             this.button_boton_editar.Text = "Editar";
             this.button_boton_editar.UseVisualStyleBackColor = true;
+            this.button_boton_editar.Click += new System.EventHandler(this.button_boton_editar_Click);
             // 
             // button_boton_borrar
             // 
@@ -71,6 +72,7 @@
             this.button_boton_borrar.TabIndex = 3;
             this.button_boton_borrar.Text = "Borrar";
             this.button_boton_borrar.UseVisualStyleBackColor = true;
+            this.button_boton_borrar.Click += new System.EventHandler(this.button_boton_borrar_Click);
             // 
             // VerContactos
             // 

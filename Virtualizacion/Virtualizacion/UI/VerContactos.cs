@@ -54,6 +54,38 @@ namespace Virtualizacion.UI
             next_form.Closed += (s, args) => this.Close();
             next_form.Show();
         }
+
+        private void button_boton_borrar_Click(object sender, EventArgs e)
+        {
+            Contacto contacto_seleccionado = this.listBox_lista_contactos.SelectedItem as Contacto;
+            if (contacto_seleccionado != null)
+            {
+                Contacto contacto_temporal;
+                for (int i = 0; i < this.listBox_lista_contactos.Items.Count; i++)
+                {
+                    contacto_temporal = listBox_lista_contactos.Items[i] as Contacto;
+                    if (contacto_temporal.ID_Contacto == contacto_seleccionado.ID_Contacto)
+                    {
+                        listBox_lista_contactos.Items.RemoveAt(i);
+                        Memoria.sql.eliminar_relacion_usuario_x_contacto(contacto_seleccionado.ID_Contacto,
+                            Memoria.usuario_actual.ID_Usuario);
+                        Memoria.sql.eliminar_contacto_de_base_de_datos(contacto_seleccionado.ID_Contacto);
+                    }
+                }
+            }
+        }
+
+        private void button_boton_editar_Click(object sender, EventArgs e)
+        {
+            Contacto contacto_seleccionado = this.listBox_lista_contactos.SelectedItem as Contacto;
+            if(contacto_seleccionado != null)
+            {
+                this.Hide();
+                var next_form = new EditarContacto(contacto_seleccionado);
+                next_form.Closed += (s, args) => this.Close();
+                next_form.Show();
+            }
+        }
     }
 }
 

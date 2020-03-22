@@ -59,5 +59,21 @@ namespace Virtualizacion.UI
             next_form.Closed += (s, args) => this.Close();
             next_form.Show();
         }
+
+        private void textBox_usuario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                log_in_method_tree();
+            }
+        }
+
+        private void textBox_contrasenia_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                log_in_method_tree();
+            }
+        }
     }
 }
