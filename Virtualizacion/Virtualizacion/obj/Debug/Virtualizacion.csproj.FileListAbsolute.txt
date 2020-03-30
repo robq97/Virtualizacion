@@ -22,3 +22,4 @@ E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Vi
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.CrearContacto.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EditarContacto.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EstablecerConexionSQL.resources
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csprojAssemblyReference.cache

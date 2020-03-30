@@ -42,6 +42,7 @@
             this.textBox_contrasenia_base_de_datos = new System.Windows.Forms.TextBox();
             this.button_probar_conexion = new System.Windows.Forms.Button();
             this.button_usar_conexion = new System.Windows.Forms.Button();
+            this.label_conexion_personalizada = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -180,11 +181,21 @@
             this.button_usar_conexion.UseVisualStyleBackColor = true;
             this.button_usar_conexion.Click += new System.EventHandler(this.button_usar_conexion_Click);
             // 
+            // label_conexion_personalizada
+            // 
+            this.label_conexion_personalizada.AutoSize = true;
+            this.label_conexion_personalizada.Location = new System.Drawing.Point(17, 80);
+            this.label_conexion_personalizada.Name = "label_conexion_personalizada";
+            this.label_conexion_personalizada.Size = new System.Drawing.Size(154, 13);
+            this.label_conexion_personalizada.TabIndex = 16;
+            this.label_conexion_personalizada.Text = "Estado conexión personalizada";
+            // 
             // EstablecerConexionSQL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(532, 298);
+            this.Controls.Add(this.label_conexion_personalizada);
             this.Controls.Add(this.button_usar_conexion);
             this.Controls.Add(this.button_probar_conexion);
             this.Controls.Add(this.textBox_contrasenia_base_de_datos);
@@ -222,5 +233,6 @@
         private System.Windows.Forms.TextBox textBox_contrasenia_base_de_datos;
         private System.Windows.Forms.Button button_probar_conexion;
         private System.Windows.Forms.Button button_usar_conexion;
+        private System.Windows.Forms.Label label_conexion_personalizada;
     }
 }

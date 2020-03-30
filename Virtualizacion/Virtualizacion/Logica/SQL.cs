@@ -57,12 +57,15 @@ namespace Virtualizacion.Logica
             try
             {
                 connection.Open();
-                connection.Close();
                 return true;
             }
             catch (Exception)
             {
                 return false;
+            }
+            finally
+            {
+                connection.Close();
             }
             
         }

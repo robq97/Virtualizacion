@@ -17,6 +17,29 @@ namespace Virtualizacion.UI
         {
             InitializeComponent();
             this.CenterToScreen();
+            estado_conexion_personalizada_label("ocultar");
+        }
+
+        private void estado_conexion_personalizada_label(string estado)
+        {
+            switch (estado)
+            {
+                case "ocultar":
+                    this.label_conexion_personalizada.Text = "";
+                    break;
+                case "exito":
+                    this.label_conexion_personalizada.Text = "¡Conexión exitosa!";
+                    this.label_conexion_personalizada.ForeColor = Color.Green;
+                    break;
+                case "error":
+                    this.label_conexion_personalizada.Text = "Error al conectar a la base de datos.";
+                    this.label_conexion_personalizada.ForeColor = Color.Red;
+                    break;
+                case "prueba":
+                    this.label_conexion_personalizada.Text = "Probando conexión...";
+                    this.label_conexion_personalizada.ForeColor = Color.Blue;
+                    break;
+            }
         }
 
         private bool conexion_personalizada_probada_y_exitosa = false;
@@ -55,16 +78,20 @@ namespace Virtualizacion.UI
 
         private void button_probar_conexion_Click(object sender, EventArgs e)
         {
-            conexion_predeterminada_actualizada = true;
+            estado_conexion_personalizada_label("prueba");
             establecer_db_host_personalizado();
+            conexion_predeterminada_actualizada = true;
             bool estado_conexion = Memoria.sql.CheckConnection();
             if (estado_conexion)
             {
+                estado_conexion_personalizada_label("exito");
                 this.conexion_personalizada_probada_y_exitosa = true;
                 Ejecutar.MESSAGEBOX("¡Conexión exitosa!", "Conexión", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
+                this.conexion_personalizada_probada_y_exitosa = false;
+                estado_conexion_personalizada_label("error");
                 Ejecutar.MESSAGEBOX("No ha sido posible establecer una conexión con el servidor."
                     , "Conexión", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
