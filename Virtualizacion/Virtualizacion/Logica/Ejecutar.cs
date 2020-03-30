@@ -10,7 +10,14 @@ namespace Virtualizacion.Logica
     {
         public void run()
         {
-            abrir_ventana_login();
+            abrir_ventana_conexion_SQL();
+        }
+
+        private void abrir_ventana_conexion_SQL()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new EstablecerConexionSQL());
         }
 
         private void abrir_ventana_login()

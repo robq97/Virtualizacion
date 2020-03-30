@@ -68,6 +68,12 @@
     <Compile Include="UI\EditarContacto.Designer.cs">
       <DependentUpon>EditarContacto.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\EstablecerConexionSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\EstablecerConexionSQL.Designer.cs">
+      <DependentUpon>EstablecerConexionSQL.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\EditarContacto.resx">
       <DependentUpon>EditarContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\EstablecerConexionSQL.resx">
+      <DependentUpon>EstablecerConexionSQL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
