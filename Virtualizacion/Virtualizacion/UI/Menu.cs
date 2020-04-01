@@ -4,9 +4,9 @@ using Virtualizacion.Logica;
 
 namespace Virtualizacion.UI
 {
-    public partial class Menu : Form
+    public partial class Menú : Form
     {
-        public Menu()
+        public Menú()
         {
             InitializeComponent();
             this.CenterToScreen();

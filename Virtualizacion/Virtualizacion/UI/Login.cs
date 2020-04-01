@@ -55,7 +55,7 @@ namespace Virtualizacion.UI
         private void abrir_ventana_menu_principal()
         {
             this.Hide();
-            var next_form = new Menu();
+            var next_form = new Menú();
             next_form.Closed += (s, args) => this.Close();
             next_form.Show();
         }

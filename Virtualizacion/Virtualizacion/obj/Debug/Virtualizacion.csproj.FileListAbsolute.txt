@@ -23,3 +23,18 @@ E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Vi
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EditarContacto.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EstablecerConexionSQL.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csprojAssemblyReference.cache
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe.config
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.pdb
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csprojAssemblyReference.cache
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.Properties.Resources.resources
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.CrearContacto.resources
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EditarContacto.resources
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EstablecerConexionSQL.resources
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Login.resources
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.VerContactos.resources
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csproj.GenerateResource.cache
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csproj.CoreCompileInputs.cache
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.exe
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.pdb
+C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Menú.resources
