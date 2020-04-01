@@ -64,7 +64,7 @@ namespace Virtualizacion.UI
             else
             {
                 Ejecutar.MESSAGEBOX("Se a cambiado la conexion predeterminada.\r\n" +
-                    "Reinicie la aplicación para utilizarla.","Conexión personalizada cambiada",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                    "Reinicie la aplicación para utilizarla.","Conexión predeterminada cambiada",MessageBoxButtons.OK,MessageBoxIcon.Information);
             }
         }
 

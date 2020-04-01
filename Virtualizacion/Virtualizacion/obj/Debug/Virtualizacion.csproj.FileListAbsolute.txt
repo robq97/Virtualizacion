@@ -17,12 +17,10 @@ E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Vi
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.pdb
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Login.resources
-E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Menu.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.VerContactos.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.CrearContacto.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EditarContacto.resources
 E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.EstablecerConexionSQL.resources
-E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.csprojAssemblyReference.cache
 C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe.config
 C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.exe
 C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\bin\Debug\Virtualizacion.pdb
@@ -38,3 +36,4 @@ C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Vi
 C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.exe
 C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.pdb
 C:\Users\Mrosc\Desktop\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Menú.resources
+E:\Github Repositories\Virtualizacion\Virtualizacion\Virtualizacion\obj\Debug\Virtualizacion.UI.Menú.resources
